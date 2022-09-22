@@ -13,10 +13,14 @@ a { color:blue; text-decoration: none;}
     border-bottom: solid 1px #cdcdcd;
 }
 
+#conteúdo {
+    border-left: solid 1px #cdcdcd;
+}
 
 .container {
     align-content: center;
 }
+
 
 header {
     background-color: black;
@@ -25,34 +29,30 @@ header {
     border-bottom: solid 1px #cdcdcd;
 }
 
-h1, h2 {
+h1, h2, h6 {
     text-align: center;
 }
 
 p {
     text-align: justify;
+    padding: 3%;
 }
 
+#dropfixa {
+    position: fixed;
+}
 
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
-aside {
-    padding-right: 25%;
-    padding-top: 25px;
-    text-align: left;
-    position: fixed;
-    
-}
 
 /* Estlização do Menu */
 
 menu {
-    padding-left: 25%;
+    padding-right: 25%;
     padding-top: 25px;
 }
-
 
 
 .gato {
@@ -62,12 +62,6 @@ menu {
 table th {
     background-color: black;
     color: white;
-}
-
-.intext {
-    width: 200px;
-
-    margin: 0;
 }
 
 
